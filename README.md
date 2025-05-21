@@ -59,6 +59,18 @@ This project:
 1. Download and extract the file: [`MuseScore Auto-Opener.app.zip`](MuseScore%20Auto-Opener.app.zip).
 2. Set `MuseScore Auto-Opener.app` as the default program for `.mcsz` files in Finder. Right-click on any `.mcsz` file, choose "Get Info", and under "Open with:", select `MuseScore Auto-Opener.app`. Then click "Change All".
 
+### File Integrity
+
+To verify the integrity of the downloaded `.zip` file, compare its SHA-256 checksum:
+```
+b0914f5025a658b18c67fb014667ccb1b335b654c8e5d0f193559002f68c7fa6
+```
+You can check it by running the following command in Terminal:
+```
+shasum -a 256 /path/to/"MuseScore Auto-Opener.app.zip"
+```
+If the result matches the hash above, the file has not been tampered with or corrupted.
+
 ### Examples
 
 To have a file automatically open in MuseScore 3, rename it to contain `-ms3` or `MS3-`:
