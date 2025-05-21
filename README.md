@@ -17,9 +17,9 @@ A lightweight AppleScript utility that automatically opens `.mcsz` scores in the
 
 I am extremely passionate about music. In particular, I enjoy writing scores to transcribe, arrange, and compose. However, I personally find that **transcribing is best done in MuseScore 3**, and **arranging and composing are best done in MuseScore 4 (MuseScore Studio)**.
 
-The file extension for all MuseScore scores, regardless of version, is `.mcsz`, which meant that every time I opened a score, I would be required to manually specify which version of the app to open it in each time. This quickly became tedious, so I began to wonder if there was any way I could automate it.
-
 > MuseScore 4 and MuseScore Studio are the same app; I will refer to it as MuseScore 4 throughout.
+
+The file extension for all MuseScore scores, regardless of version, is `.mcsz`. This meant that every time I opened a score, I would be required to manually specify which version of the app to open it in each time. This quickly became tedious, so I began to wonder if there was any way I could automate it.
 
 ## Project Overview
 
