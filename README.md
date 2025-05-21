@@ -1,6 +1,6 @@
 # MuseScore Auto-Opener
 
-A short personal project of mine. A lightweight AppleScript utility to open a [MuseScore](https://en.wikipedia.org/wiki/MuseScore) file in the correct version of the app depending on its name.
+A short personal project of mine. A lightweight AppleScript utility to open a [MuseScore](https://en.wikipedia.org/wiki/MuseScore) file in the correct version of the app depending on the filename.
 
 ## Table of Contents
 - [Background](#background)
