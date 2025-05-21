@@ -1,6 +1,6 @@
 # MuseScore Auto-Opener
 
-A short personal project of mine. A lightweight AppleScript utility to open a [MuseScore](https://en.wikipedia.org/wiki/MuseScore) file in the correct version of the app depending on the filename.
+A lightweight AppleScript utility that automatically opens .mcsz scores in the correct version of MuseScore based on filename flags. Personal project.
 
 ## Table of Contents
 - [Background](#background)
@@ -33,7 +33,7 @@ If the filename contains `-ms3` or `MS3-`, it opens the file in **MuseScore 3**.
 
 ## Results
 
-This script has **made my workflow noticeably smoother**. It integrates seamlessly into macOS, saves time, eliminates repetitive clicks, and ensures the right app opens every time which avoids file corruption.
+This script has **made my workflow noticeably smoother**. It integrates seamlessly into macOS, saves time, eliminates repetitive clicks, and ensures the right app opens every time which reduces the risk of file corruption.
 
 ## Takeaways
 
