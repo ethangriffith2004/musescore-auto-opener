@@ -55,8 +55,8 @@ This project:
 - [MuseScore 4](https://musescore.org/en/download)
 
 ### Steps
-1. Download the application: `MuseScore Auto Opener.app`.
-2. Set the app as the default program for `.mcsz` files in Finder.
+1. Download and extract the `.zip` file: `MuseScore Auto Opener.app.zip`.
+2. Set `MuseScore Auto Opener.app` as the default program for `.mcsz` files in Finder.
 
 ### Examples
 
