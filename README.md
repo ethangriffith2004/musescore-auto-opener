@@ -71,6 +71,7 @@ To have a file automatically open in MuseScore 4, omit those flags:
 ```
 MyScore.mcsz
 MyScore-ms4.mcsz
+MS4-MyScore
 ```
 
 ## Contributing
