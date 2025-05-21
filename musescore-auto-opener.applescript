@@ -3,7 +3,7 @@ Copyright (c) 2025 Ethan Griffith
 Licensed under the MIT License. See LICENSE file for details.
 *)
 
--- open a .mcsz file in a specific version of museScore depending on its name
+-- open a .mcsz file in a specific version of musescore depending on its name
 
 -- if the user opens the script itself
 on run
