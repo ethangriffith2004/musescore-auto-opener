@@ -1,6 +1,6 @@
 # MuseScore Auto-Opener
 
-A lightweight AppleScript utility that automatically opens `.mcsz` scores in the correct version of MuseScore based on filename flags. Personal project.
+A lightweight AppleScript utility that automatically opens `.mcsz` files in the correct version of MuseScore based on filename flags. Personal project.
 
 ## Table of Contents
 - [Background](#background)
