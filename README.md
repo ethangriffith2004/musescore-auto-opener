@@ -1,6 +1,6 @@
 # MuseScore Auto-Opener
 
-A short personal project of mine. A lightweight AppleScript utility to open a [MuseScore](https://en.wikipedia.org/wiki/MuseScore) file in the correct version of the app (3 or 4) depending on its name.
+A short personal project of mine. A lightweight AppleScript utility to open a [MuseScore](https://en.wikipedia.org/wiki/MuseScore) file in the correct version of the app depending on its name.
 
 ## Table of Contents
 - [Background](#background)
@@ -19,6 +19,8 @@ I am extremely passionate about music. In particular, I enjoy writing scores to 
 
 The file extension for all MuseScore scores, regardless of version, is `.mcsz`, which meant that every time I opened a score, I would be required to manually specify which version of the app to open it in each time. This quickly became tedious, so I began to wonder if there was any way I could automate it.
 
+> MuseScore 4 and MuseScore Studio refer to the same app; I will refer to it as MuseScore 4 throughout.
+
 ## Project Overview
 
 In this project, I wrote an application that opens a score file in a specific version of the app depending on a "flag" added to the filename.
@@ -36,7 +38,7 @@ This script has **made my workflow noticeably smoother**. It integrates seamless
 ## Takeaways
 
 This project:
-- **Introduced me to AppleScript** and how it interacts with macOS applications.
+- **Introduced me to AppleScript** and how it interacts with applications and files on macOS.
 - Reinforced the **importance of workflow efficiency** and automating repetitive tasks.
 - Demonstrated how simple scripts like this can **solve real problems** effectively.
 
@@ -53,7 +55,7 @@ This project:
 - [MuseScore 4](https://musescore.org/en/download)
 
 ### Steps
-1. Download the application: `Musescore Auto Opener.app`.
+1. Download the application: `MuseScore Auto Opener.app`.
 2. Set the app as the default program for `.mcsz` files in Finder.
 
 ### Examples
@@ -64,7 +66,7 @@ MyScore-ms3.mcsz
 MS3-MyScore.mcsz
 ```
 
-To have a file automatically open in MuseScore 4, name the file so it does not include any of these indicators:
+To have a file automatically open in MuseScore 4, omit those flags:
 ```
 MyScore.mcsz
 MyScore-ms4.mcsz
@@ -72,8 +74,8 @@ MyScore-ms4.mcsz
 
 ## Contributing
 
-- Feel free to fork the repo and suggest improvements!
-- Open to feedback and questions via email or GitHub issues.
+- Fork the repo and submit a pull request with any improvements!
+- Suggestions or bug reports welcome via email or GitHub issues.
 
 ## License
 
