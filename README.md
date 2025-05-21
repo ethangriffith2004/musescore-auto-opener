@@ -19,7 +19,7 @@ I am extremely passionate about music. In particular, I enjoy writing scores to 
 
 The file extension for all MuseScore scores, regardless of version, is `.mcsz`, which meant that every time I opened a score, I would be required to manually specify which version of the app to open it in each time. This quickly became tedious, so I began to wonder if there was any way I could automate it.
 
-> MuseScore 4 and MuseScore Studio refer to the same app; I will refer to it as MuseScore 4 throughout.
+> MuseScore 4 and MuseScore Studio are the same app; I will refer to it as MuseScore 4 throughout.
 
 ## Project Overview
 
