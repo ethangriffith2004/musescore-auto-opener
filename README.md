@@ -27,7 +27,7 @@ If the filename contains `-ms3` or `MS3-`, it opens the file in **MuseScore 3**.
 
 ## Technologies Used
 - AppleScript
-- macOS scripting environment (Script Editor)
+- macOS Script Editor
 
 ## Results
 
@@ -40,8 +40,6 @@ This project:
 - Reinforced the **importance of workflow efficiency** and automating repetitive tasks.
 - Demonstrated how simple scripts like this can **solve real problems** effectively.
 
-(rewrite these to flow better?)
-
 ## Improvements & Extensions
 
 - Create a companion script or tool for Windows or Linux users.
@@ -51,7 +49,8 @@ This project:
 
 ### Prerequisites
 - macOS
-- MuseScore 3 and MuseScore 4 installed
+- [MuseScore 3](https://musescore.org/en/download)
+- [MuseScore 4](https://musescore.org/en/download)
 
 ### Steps
 1. Download the application: `Musescore Auto Opener.app`.
@@ -59,13 +58,13 @@ This project:
 
 ### Examples
 
-To have a file automatically open in MuseScore 3, rename your file to contain `-ms3.mcsz` or start with `MS3-`:
+To have a file automatically open in MuseScore 3, rename it to contain `-ms3` or `MS3-`:
 ```
 MyScore-ms3.mcsz
 MS3-MyScore.mcsz
 ```
 
-To open a file in MuseScore 4, name the file without any of the MuseScore 3 indicators:
+To have a file automatically open in MuseScore 4, name the file so it does not include any of these indicators:
 ```
 MyScore.mcsz
 MyScore-ms4.mcsz
