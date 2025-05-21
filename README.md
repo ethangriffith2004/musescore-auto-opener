@@ -44,8 +44,9 @@ This project:
 
 ## Improvements & Extensions
 
-- Create a companion script or tool for Windows or Linux users.
-- Add error handling if the specified MuseScore app is not installed.
+- Create an equivalent tool for Windows or Linux users.
+- Add error handling if the specified version of MuseScore is not installed.
+- Expand to other apps and filetypes.
 
 ## How to Run
 
@@ -55,7 +56,7 @@ This project:
 - [MuseScore 4](https://musescore.org/en/download)
 
 ### Steps
-1. Download and extract the `.zip` file: `MuseScore Auto Opener.app.zip`.
+1. Download and extract the file: [`MuseScore Auto Opener.app.zip`](MuseScore-Auto-Opener.app.zip).
 2. Set `MuseScore Auto Opener.app` as the default program for `.mcsz` files in Finder.
 
 ### Examples
