@@ -9,7 +9,7 @@ A lightweight AppleScript utility that automatically opens `.mcsz` files in the 
 - [Results](#results)
 - [Takeaways](#takeaways)
 - [Improvements & Extensions](#improvements--extensions)
-- [How to Run](#how-to-run)
+- [Download & Setup](#download--setup)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -48,14 +48,14 @@ This project:
 - Add error handling if the specified version of MuseScore is not installed.
 - Expand to other apps and filetypes.
 
-## How to Run
+## Download & Setup
 
 ### Prerequisites
 - macOS
 - [MuseScore 3](https://musescore.org/en/download)
 - [MuseScore 4](https://musescore.org/en/download)
 
-### Steps
+### How to Run
 1. Download and extract the file: [`MuseScore Auto-Opener.app.zip`](MuseScore%20Auto-Opener.app.zip).
 2. Set `MuseScore Auto-Opener.app` as the default program for `.mcsz` files in Finder. Right-click on any `.mcsz` file, choose "Get Info", and under "Open with:", select `MuseScore Auto-Opener.app`. Then click "Change All".
 
