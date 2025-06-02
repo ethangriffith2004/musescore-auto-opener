@@ -34,7 +34,7 @@ If the filename contains `-ms3` or `MS3-`, it opens the file in **MuseScore 3**.
 
 ## Results
 
-This script has **made my workflow noticeably smoother**. It integrates seamlessly into macOS, saves time, eliminates repetitive clicks, and ensures the right app opens every time which reduces the risk of file corruption.
+This script has **made my workflow noticeably smoother**. It integrates seamlessly into macOS, saves time, and ensures the correct app opens which reduces the risk of file corruption.
 
 ## Takeaways
 
