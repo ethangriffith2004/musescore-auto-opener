@@ -17,10 +17,10 @@ A lightweight AppleScript utility that automatically opens `.mcsz` files in the 
 
 I am extremely passionate about music. In particular, I enjoy writing scores to transcribe, arrange, and compose. However, I personally find that **transcribing is best done in MuseScore 3**, and **arranging and composing are best done in MuseScore 4 (MuseScore Studio)**.
 
+The file extension for all MuseScore scores, regardless of version, is `.mcsz`. This meant that every time I opened a score, I would be required to manually specify which version of the app to open it in each time. This quickly became tedious, so I began to wonder if there was any way I could automate it.
+
 > [!NOTE]
 > MuseScore 4 and MuseScore Studio are the same app; I will refer to it as MuseScore 4 throughout.
-
-The file extension for all MuseScore scores, regardless of version, is `.mcsz`. This meant that every time I opened a score, I would be required to manually specify which version of the app to open it in each time. This quickly became tedious, so I began to wonder if there was any way I could automate it.
 
 ## Project Overview
 
@@ -57,20 +57,24 @@ This project:
 - [MuseScore 4](https://musescore.org/en/download)
 
 ### How to Run
-1. Download and extract the file: [`MuseScore Auto-Opener.app.zip`](MuseScore%20Auto-Opener.app.zip).
-2. Set `MuseScore Auto-Opener.app` as the default program for `.mcsz` files in Finder. Right-click on any `.mcsz` file, choose "Get Info", and under "Open with:", select `MuseScore Auto-Opener.app`. Then click "Change All".
+1. Download the `.zip` archive: [`MuseScore Auto-Opener.app.zip`](MuseScore%20Auto-Opener.app.zip).
+2. Extract the archive and move the `.app` to your Applications folder (optional but recommended).
+3. Set `MuseScore Auto-Opener.app` as the default program for `.mcsz` files in Finder.
+    - Right-click on any `.mcsz` file and choose "Get Info".
+    - Under "Open with:", select `MuseScore Auto-Opener.app`.
+    - Click "Change All".
 
 ### File Integrity
 
-To verify the integrity of the downloaded `.zip` file, compare its SHA-256 checksum:
+To verify the integrity of the download, compare the SHA-256 checksum:
 ```
 b0914f5025a658b18c67fb014667ccb1b335b654c8e5d0f193559002f68c7fa6
 ```
-You can check it by running the following command in Terminal:
+Run this command in Terminal:
 ```
 shasum -a 256 /path/to/"MuseScore Auto-Opener.app.zip"
 ```
-If the result matches the hash above, the file has not been tampered with or corrupted.
+If the output matches the hash above, the file is valid.
 
 ### Examples
 
