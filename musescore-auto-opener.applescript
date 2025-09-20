@@ -10,6 +10,7 @@ on run
 	-- make fun of them just a little
 	display alert "just open a .mcsz file, silly. it works automatically" buttons {"whoops"} default button "whoops"
 end run
+
 -- if the user opens one/several .mcsz file(s)
 on open theseFiles
 	-- loop through each score passed to the script
