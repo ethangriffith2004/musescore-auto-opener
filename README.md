@@ -30,7 +30,6 @@ If the filename contains `-ms3` or `MS3-`, it opens the file in MuseScore 3. Oth
 
 ## Technologies Used
 - AppleScript
-- macOS Script Editor
 
 ## Results
 
