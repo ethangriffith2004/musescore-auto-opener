@@ -61,6 +61,7 @@ This project:
     - Right-click on any `.mcsz` file and choose "Get Info".
     - Under "Open with:", select `MuseScore Auto-Opener.app`.
     - Click "Change All".
+4. The app will take over automatically whenever a `.mcsz` file is opened.
 
 ### File Integrity
 
