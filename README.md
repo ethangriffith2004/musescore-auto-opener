@@ -15,7 +15,7 @@ A lightweight AppleScript utility that automatically opens `.mcsz` files in the 
 
 ## Background
 
-I am extremely passionate about music. In particular, I enjoy writing scores to transcribe, arrange, and compose. However, I personally find that transcribing is best done in MuseScore 3, and arranging and composing are best done in MuseScore 4 (MuseScore Studio).
+I am passionate about music. In particular, I enjoy writing scores to transcribe, arrange, and compose. However, I personally find that transcribing is best done in MuseScore 3, and arranging and composing are best done in MuseScore 4 (MuseScore Studio).
 
 > [!NOTE]
 > As of writing, MuseScore 4 and MuseScore Studio refer to the same app. From now, I will refer to it as MuseScore 4.
